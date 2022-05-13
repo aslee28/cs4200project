@@ -14,7 +14,60 @@
         "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Hi, how are you?"
+      ]
+    },
+    {
+      "tag": "doingGood",
+      "patterns": [
+        "I'm doing good",
+        "I'm well, thank you for asking",
+        "I'm well",
+        "I'm doing great!",
+        "I feel awesome!"
+      ],
+      "responses": [
+        "That's good, I'm glad to hear that!",
+        "I'm glad that you are doing well",
+        "Great!",
+        "That's wonderful news"
+      ]
+    },
+    {
+      "tag": "doingBad",
+      "patterns": [
+        "I'm not doing good",
+        "I'm stressed",
+        "I feel overwhelmed",
+        "I feel exhausted",
+        "I feel horrible",
+        "Not good",
+        "Feeling down"
+      ],
+      "responses": [
+        "I'm sorry to hear that! I hope things get better soon.",
+        "Things will get better!",
+        "You'll make it through this, you're strong!"
+      ]
+    },
+    {
+      "tag": "howIsSam",
+      "patterns": [
+        "I'm doing good, how are you?",
+        "In doing bad, how are you?",
+        "How are you?",
+        "Are you okay?",
+        "Is everything okay?",
+        "How is Sam?"
+      ],
+      "responses": [
+        "I'm doing great! Thank you for asking",
+        "Sam is the feeling wonderful!",
+        "Sam is happy to help you!",
+        "I'm well",
+        "I'm doing good.",
+        "I feel great"
       ]
     },
     {
@@ -32,43 +85,6 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
@@ -77,15 +93,22 @@
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why did the chicken cross the road?\nTo get to the other side!",
+        "Did you know pregnant horses are faster than regular horse?\nIt's because they have two horse power!",
+        "Why did the football coach go to the bank?\nTo get his quarter back.",
+        "Why can't a leopard hide?\nHe's always spotted.",
+        "Air used to be free at the gas station, now it costs 2.50. You want to know why?\nInflation.",
+        "I tried to get a smart car the other day but they sold out too fast.\bWhy? I guess I'm just a bit slow.",
+        "Did you hear about the claustrophobic astronaut?\nHe just wanted a bit more space."
       ]
-    }
+    },
     {
       "tag": "whenIsGraduation",
       "patterns": [
         "When is graduation",
         "What time is graduation",
-        "How long till graduation",
+        "How long until graduation",
         "When does graduation start"
       ],
       "responses": [
@@ -104,9 +127,9 @@
         "School work due"
       ],
       "responses": [
-        "Your CS4800 homework is due in 3 days",
-        "Your CS4800 homework is due this Friday",
-        "Finish your CS4800 homework by the end of Friday",
+        "Your homework is due in 3 days",
+        "Your homework is due this Friday",
+        "Finish your homework by the end of Friday",
         "Next homework is due in 3 days (Friday)"
       ]
     },
@@ -130,10 +153,25 @@
         "What time is my next test"
       ],
       "responses": [
-        "Your CS4800 test is in 5 days",
-        "Your CS4800 test is next Tuesday",
-        "You have a CS4800 test next week!",
+        "Your test is in 5 days",
+        "Your test is next Tuesday",
+        "You have a test next week!",
         "Next test is in 5 days (Tuesday)"
+      ]
+    },
+    {
+      "tag": "askingHelp",
+      "patterns": [
+        "What can you do for me?",
+        "What can you do?",
+        "What do you do?",
+        "How can you help me?",
+        "Help?"
+      ],
+      "responses": [
+        "You can ask me about graduation, tests, grades, homework, and I also know a couple jokes!",
+        "Here's what I can help with:\nGraduation\nTests\nGrades\nHomework",
+        "Currently, I can help with graduation, tests, grades, or homework questions!"
       ]
     }
   ]

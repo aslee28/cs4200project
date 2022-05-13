@@ -80,5 +80,61 @@
         "What did the buffalo say when his son left for college? Bison."
       ]
     }
+    {
+      "tag": "whenIsGraduation",
+      "patterns": [
+        "When is graduation",
+        "What time is graduation",
+        "How long till graduation",
+        "When does graduation start"
+      ],
+      "responses": [
+        "Graduation ceremonies start in 8 days!",
+        "Graduation ceremonies last from 5/20-5/22",
+        "Check https://www.cpp.edu/commencement/index.shtml for Graduation dates"
+      ]
+    },
+    {
+      "tag": "nextHWDUE",
+      "patterns": [
+        "Do I have homework",
+        "When is my next homework due",
+        "What homework is due",
+        "Which homework is due tomorrow",
+        "School work due"
+      ],
+      "responses": [
+        "Your CS4800 homework is due in 3 days",
+        "Your CS4800 homework is due this Friday",
+        "Finish your CS4800 homework by the end of Friday",
+        "Next homework is due in 3 days (Friday)"
+      ]
+    },
+    {
+      "tag": "classGrade",
+      "patterns": [
+        "What is my grade in CS4800",
+        "What grade do I have in CS4800"
+      ],
+      "responses": [
+        "You have a 92.04%",
+        "Your current grade in CS4800 is 92.04%"
+      ]
+    },
+    {
+      "tag": "test",
+      "patterns": [
+        "When is my test",
+        "How long until my next test",
+        "Do I have another test soon",
+        "What time is my next test"
+      ],
+      "responses": [
+        "Your CS4800 test is in 5 days",
+        "Your CS4800 test is next Tuesday",
+        "You have a CS4800 test next week!",
+        "Next test is in 5 days (Tuesday)"
+      ]
+    }
   ]
 }

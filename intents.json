@@ -1,0 +1,292 @@
+{
+  "intents": [
+    {
+      "tag": "whenIsGraduation",
+      "patterns": [
+        "When is graduation",
+        "What time is graduation",
+        "How long till graduation",
+        "When does graduation start"
+      ],
+      "responses": [
+        "Graduation ceremonies start in 8 days!",
+        "Graduation ceremonies last from 5/20-5/22",
+        "Check https://www.cpp.edu/commencement/index.shtml for Graduation dates"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why did the chicken cross the road?\nTo get to the other side!",
+        "Did you know pregnant horses are faster than regular horse?\nIt's because they have two horse power!",
+        "Why did the football coach go to the bank?\nTo get his quarter back.",
+        "Why can't a leopard hide?\nHe's always spotted.",
+        "Air used to be free at the gas station, now it costs 2.50. You want to know why?\nInflation.",
+        "I tried to get a smart car the other day but they sold out too fast.\bWhy? I guess I'm just a bit slow.",
+        "Did you hear about the claustrophobic astronaut?\nHe just wanted a bit more space."
+      ]
+    },
+    {
+      "tag": "whenIsGraduation",
+      "patterns": [
+        "When is graduation",
+        "What time is graduation",
+        "How long till graduation",
+        "When does graduation start"
+      ],
+      "responses": [
+        "Graduation ceremonies start in 8 days!",
+        "Graduation ceremonies last from 5/20-5/22",
+        "Check https://www.cpp.edu/commencement/index.shtml for Graduation dates"
+      ]
+    },
+    {
+      "tag": "nextHWDUE",
+      "patterns": [
+        "Do I have homework",
+        "When is my next homework due",
+        "What homework is due",
+        "Which homework is due tomorrow",
+        "School work due"
+      ],
+      "responses": [
+        "Your CS4800 homework is due in 3 days",
+        "Your CS4800 homework is due this Friday",
+        "Finish your CS4800 homework by the end of Friday"
+      ]
+    },
+    {
+      "tag": "classGrade",
+      "patterns": [
+        "What is my grade in CS4800",
+        "What grade do I have in CS4800"
+      ],
+      "responses": [
+        "You have a 92.04%",
+        "Your current grade in CS4800 is 92.04%"
+      ]
+    },
+    {
+      "tag": "test",
+      "patterns": [
+        "When is my test",
+        "How long until my next test",
+        "Do I have another test soon",
+        "What time is my next test"
+      ],
+      "responses": [
+        "Your CS4800 test is in 5 days",
+        "Your CS4800 test is next Tuesday",
+        "You have a CS4800 test next week!",
+        "Next test is in 5 days (Tuesday)"
+      ]
+    },
+    {
+      "tag": "details",
+      "patterns": [
+        "What are you",
+        "Details"
+      ],
+      "responses": [
+        "My name is SchoolBot. I am an AI chatbot that uses NLP techniques and a Feedfoward neural network to chat with users. I was created in Python by Jorge Aranda and Alexander Lee."
+      ]
+    },
+    {
+      "tag": "SchoolYear",
+      "patterns": [
+        "When does the Summer semester start?",
+        "When does the next semester start?"
+      ],
+      "responses": [
+        "Summer semester: 10-Week Session from May 27 - June 8."
+      ]
+    },
+    {
+      "tag": "askingHelp",
+      "patterns": [
+        "What can you do for me?",
+        "What can you do?",
+        "What do you do?",
+        "How can you help me?",
+        "Help?"
+      ],
+      "responses": [
+        "You can ask me about graduation, tests, grades, homework, and I also know a couple jokes!",
+        "Here's what I can help with:\nGraduation\nTests\nGrades\nHomework",
+        "Currently, I can help with graduation, tests, grades, or homework questions!"
+      ]
+    },
+    {
+      "tag": "howAreyou",
+      "patterns": [
+        "I'm doing good, how are you?",
+        "In doing bad, how are you?",
+        "How are you?",
+        "Are you okay?",
+        "Is everything okay?",
+        "How is Sam?"
+      ],
+      "responses": [
+        "I'm doing great! Thank you for asking",
+        "Sam is the feeling wonderful!",
+        "Sam is happy to help you!",
+        "I'm well",
+        "I'm doing good.",
+        "I feel great"
+      ]
+    },
+    {
+      "tag": "programmers",
+      "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you"
+      ],
+      "responses": [
+        "I was made by Alexander Lee and Jorge Aranda using Python."
+      ]
+    },
+     {
+       "tag": "insult",
+       "patterns": [
+         "you are dumb",
+         "shut up",
+         "idiot"
+       ],
+       "responses": [
+         "Well that hurts :("
+       ]
+     },
+    {
+      "tag": "exclaim",
+      "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+      ],
+      "responses": [
+        "Yeah!"
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": [
+        "Thank you!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "when were you made",
+        "what is your age"
+      ],
+      "responses": [
+        "I was made in 2022, if that's what you are asking!"
+      ]
+    },
+    {
+      "tag": "still have questions",
+      "patterns": [
+        "I have a question that can not be answered, now what?",
+        "I want to ask a question not provided",
+        "want to contact the SchoolBot team",
+        "reach out to the SchoolBot team",
+        "have additional questions"
+      ],
+      "responses": [
+        "Shoot us an email at aslee@cpp.edu or jaranda@cpp.edu"
+      ]
+    },
+    {
+      "tag": "AI",
+      "patterns": [
+        "What is AI?",
+        "What is Artificial Intelligence?"
+      ],
+      "responses": ["Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."]
+    },
+    {
+      "tag": "sentient",
+      "patterns": [
+        "Are you sentient?",
+        "Are you real?",
+        "Do you have feelings?"
+      ],
+      "responses": [
+        "In all probability, I am not. I'm not that sophisticated.",
+        "Do you think I am?",
+        "How would you feel about me if I told you I was?",
+        "No."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "what are the upcoming events",
+        "upcoming events"
+      ],
+      "responses": [
+        "There are currently no upcoming events"
+      ]
+    },
+    {"tag": "weather",
+      "patterns": [
+        "what is temperature",
+        "how is weather",
+        "is weather nice",
+        "how many degrees is outside",
+        "Have a Good day"
+      ],
+      "responses": [
+        "Check out the weather at https://weather.com/"
+      ]
+    }
+  ]
+}
